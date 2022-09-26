@@ -1,0 +1,29 @@
+h1,h2,h3,h4,h5{
+    color: #111111;
+    font-size: 25px;
+    font-family: "Arial Black";
+    text-align: center;
+
+}
+p{
+    color: #111111;
+    font-family:"Arial Black";
+    font-size: 25px;
+}
+body {
+    background-color: #ffffff;
+}
+
+.learnhowtocode{
+    background-color: #62ff00;
+    font-family: "Arial Black";
+    font-size: 20px;
+    text-align: center;
+}
+#images{
+    color: #f5d1e3;
+    font-family: "Arial Black";
+    font-size: 20px;
+    text-align: center;
+}
+

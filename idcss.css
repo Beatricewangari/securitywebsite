@@ -1,0 +1,15 @@
+#Kenya{
+    background-color: #f5d1e3;
+    color: black;
+    border: 10px;
+    margin: 10px;
+    text-align: Left;
+    animation: alternate;
+}
+#Uganda{
+    background-color: #06f5d1;
+    color: black;
+    border: 10px;
+    margin: 10px;
+    text-align: left;
+}

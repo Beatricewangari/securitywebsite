@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="formscss.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>
+<h1>STUDENT REGISTRATION FORM</h1>
+
+<form action="">
+  <label for="fullname">Fullname</label>
+  <input type="text" id="fullname" name="fullname" placeholder="Enter Your Name"> <br>
+  <label for="email">Email Address</label>
+  <input type="email" id="email" name="Emailaddress"><br>
+  <label for="DOB">Date of Birth</label>
+  <input type="date" id="DOB" name="Date of Birth"> <br>
+  <label for="PhoneNo">Phone Number</label>
+  <input type="text" id="PhoneNo"> <br>
+    Gender
+    <label for="Male">Male</label>
+    <input type="radio" id="Male" name="gender">
+    <label for="Female">Female</label>
+    <input type="radio" id="Female" name="gender"> <br>
+
+    <label for="Course">Course Taken</label>
+    <select name="Course" id="Course">
+        <option value="Python">Python</option>
+        <option value="Javascript">Javascript</option>
+        <option value="HTML">HTML</option>
+        <option value="React.js">Reacts.Js</option>
+        <option value="MIT">MIT</option>
+    </select> <br>
+
+    <label for="image">upload Image</label>
+    <input type="file " id="image">
+
+
+  <input type="submit" value="Register">
+</form>
+</body>
+</html>
